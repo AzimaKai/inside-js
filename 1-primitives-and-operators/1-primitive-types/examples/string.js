@@ -26,7 +26,7 @@ const str7 = 'number';
 console.log(typeof str7, str7);
 
 // you can concatenate strings with +
-const abc = 'a' + 'b' + 'c';
+const abc = 'a' + 'b' + 'c' + 345 + 345;
 console.log(typeof abc, abc);
 
 const cba = 'c' + 'b' + 'a';
