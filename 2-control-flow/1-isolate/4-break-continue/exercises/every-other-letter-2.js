@@ -5,6 +5,9 @@
 console.log('-- begin --');
 
 const word = 'pitsicola';
+          
+const ninthChar = word[9]; //undefined
+const eightChar = word[8];
 
 let index = -1;
 while (index < _._) {

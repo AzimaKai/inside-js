@@ -24,7 +24,7 @@ console.log('-- begin --');
 const findTheType = (param) => {
   // variables declared in a function body are SCOPED to that function call
   const result = typeof param;
-  return result;
+  return result; // number
 };
 
 // what happens if you uncomment the console.logs below?

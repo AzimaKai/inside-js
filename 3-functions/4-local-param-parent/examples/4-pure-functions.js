@@ -43,8 +43,12 @@ const e = (x, y) => {
   return z + y;
 };
 
-const f = (p) => {
-  return p * 2;
-};
+// it doubles the given value
+//const f = (p) => {
+  //return p * 2;
+//};
+ const makeItDouble = (value) => {
+   return value * 2;
+ };
 
 console.log('-- end --');
