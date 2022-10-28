@@ -12,11 +12,11 @@
 
 */
 
-const userInput = prompt('please input something');
-console.log(typeof userInput, userInput);
+const userInput = prompt('please enter your date of birth');
+console.log(typeof userInput);
 
 if (userInput === null || userInput === '') {
   alert('nothing!  why !!! ??? !!!');
 } else {
-  alert('you inputted: ' + userInput);
+  alert('your age is: ' + userInput);
 }
